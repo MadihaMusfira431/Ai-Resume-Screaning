@@ -22,7 +22,7 @@ if st.button("Find Best Candidates"):
         scores = []
 
         for index, row in df.iterrows():
-            candidate_skills = [x.strip().lower() for x in row["Skills"].split(",")]
+            candidate_skills = [s.strip().lower() for s in row["Skills"].split(",")]
             match = len(set(required) & set(candidate_skills))
             scores.append(match)
 
