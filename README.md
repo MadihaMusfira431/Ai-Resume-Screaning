@@ -23,7 +23,7 @@ The dataset contains:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/ai-resume-screening.git
+git clone https://github.com/MadihaMusfira431/Ai-Resume-Screening.git
 
 
 2. Install dependencies:
